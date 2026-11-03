@@ -9,3 +9,4 @@ ADD ./adder/ ./
 RUN make clean; make
 
 ENTRYPOINT ["./adder"]
+CMD ["5", "7"]
